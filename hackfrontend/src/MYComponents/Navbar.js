@@ -1,15 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Navbar } from 'react-bootstrap';
 
-function Header() {
+function Navbar() {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#home">Sunbeam</Navbar.Brand>
-        <Navbar.Brand href="/">Home</Navbar.Brand>
-        <Navbar.Brand href="/loglist">Logs</Navbar.Brand>
+        <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse id="navbar-dark-example">
           <Nav>
@@ -32,4 +29,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

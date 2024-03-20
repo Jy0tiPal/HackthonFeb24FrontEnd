@@ -27,7 +27,7 @@ const Login = () => {
             console.log("success");
             const token = { token: result.data.jwt };
             //dispatch(addUser(token));
-            navigate("/");
+            navigate("/loglist");
           } else {
             toast.error('Mismatch error occurred');
           }
